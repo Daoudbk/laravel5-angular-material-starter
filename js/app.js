@@ -25,7 +25,7 @@
 	angular.module('app.routes').config( ["$stateProvider", "$urlRouterProvider", function($stateProvider, $urlRouterProvider ) {
 
 		var getView = function( viewName ){
-			return '/views/app/' + viewName + '/' + viewName + '.html';
+			return 'views/app/' + viewName + '/' + viewName + '.html';
 		};
 
 		$urlRouterProvider.otherwise('/');
